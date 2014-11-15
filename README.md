@@ -45,5 +45,5 @@ Main paper to be cited
 }
 ```
 
-If you are using PPDB (Ganitkevitch et al, 2013), WordNet (Miller, 1995) or FrameNet (Baker et al, 1998) for enrichment please use the corresponding papers.
+If you are using PPDB (Ganitkevitch et al, 2013), WordNet (Miller, 1995) or FrameNet (Baker et al, 1998) for enrichment please cite the corresponding papers.
 
