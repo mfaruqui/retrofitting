@@ -35,6 +35,7 @@ which are your new retrofitted and (hopefully) improved word vectors, enjoy !
 
 ###Reference
 
+Main paper to be cited
 ```
 @InProceedings{faruqui:2014:NIPS-DLRLW,
   author    = {Faruqui, Manaal and Dodge, Jesse and Jauhar, Sujay K.  and  Dyer, Chris and Hovy, Eduard and Smith, Noah A.},
@@ -43,3 +44,6 @@ which are your new retrofitted and (hopefully) improved word vectors, enjoy !
   year      = {2014},
 }
 ```
+
+If you are using PPDB (Ganitkevitch et al, 2013), WordNet (Miller, 1995) or FrameNet (Baker et al, 1998) for enrichment please use the corresponding papers.
+
