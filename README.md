@@ -7,11 +7,11 @@ these word vectors are generally better in performance on semantic
 tasks than the original word vectors. This tool can be used for
 word vectors obtained from any vector training model.
 
-###Requirements:-
+###Requirements
 
 1. Python 2.7
 
-###Data you need:-
+###Data you need
 1. Word vector file
 2. Lexicon file (provided here)
 
