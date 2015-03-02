@@ -40,8 +40,8 @@ Main paper to be cited
 @InProceedings{faruqui:2014:NIPS-DLRLW,
   author    = {Faruqui, Manaal and Dodge, Jesse and Jauhar, Sujay K.  and  Dyer, Chris and Hovy, Eduard and Smith, Noah A.},
   title     = {Retrofitting Word Vectors to Semantic Lexicons},
-  booktitle = {Proceedings of the NIPS Deep learning and representation learning workshop},
-  year      = {2014},
+  booktitle = {Proceedings of NAACL},
+  year      = {2015},
 }
 ```
 
