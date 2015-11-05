@@ -23,7 +23,7 @@ Each vector file should have one word vector per line as follows (space delimite
 
 ```python retrofit.py -i word_vec_file -l lexicon_file -n num_iter -o out_vec_file```
 
-```python retrofit.py -i sample_vec.txt -l lexicon/ppdb-xl.txt -n 10 -o out_vec.txt```
+```python retrofit.py -i sample_vec.txt -l lexicons/ppdb-xl.txt -n 10 -o out_vec.txt```
 
 where, 'n' is an integer which specifies the number of iterations for which the
 optimization is to be performed.  Usually n = 10 gives reasonable results.
