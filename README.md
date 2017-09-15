@@ -1,5 +1,5 @@
 #Retrofitting
-Manaal Faruqui, mfaruqui@cs.cmu.edu
+Manaal Faruqui, manaalfar@gmail.com
 
 This tool is used to post-process word vectors to incorporate
 knowledge from semantic lexicons. As shown in Faruqui et al, 2014
