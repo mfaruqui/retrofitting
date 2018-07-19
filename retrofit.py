@@ -46,7 +46,7 @@ def print_word_vecs(wordVectors, outFileName):
   outFile.close()
   
 ''' Read the PPDB word relations as a dictionary '''
-def read_lexicon(filename, wordVecs):
+def read_lexicon(filename):
   lexicon = {}
   for line in open(filename, 'r'):
     words = line.lower().strip().split()
@@ -84,7 +84,7 @@ if __name__=='__main__':
   args = parser.parse_args()
 
   wordVecs = read_word_vecs(args.input)
-  lexicon = read_lexicon(args.lexicon, wordVecs)
+  lexicon = read_lexicon(args.lexicon)
   numIter = int(args.numiter)
   outFileName = args.output
   
