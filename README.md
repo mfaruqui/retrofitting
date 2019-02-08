@@ -2,7 +2,7 @@
 Manaal Faruqui, manaalfar@gmail.com
 
 This tool is used to post-process word vectors to incorporate
-knowledge from semantic lexicons. As shown in Faruqui et al, 2014
+knowledge from semantic lexicons. As shown in Faruqui et al, 2015
 these word vectors are generally better in performance on semantic
 tasks than the original word vectors. This tool can be used for
 word vectors obtained from any vector training model.
@@ -37,7 +37,7 @@ which are your new retrofitted and (hopefully) improved word vectors, enjoy !
 
 Main paper to be cited
 ```
-@InProceedings{faruqui:2014:NIPS-DLRLW,
+@InProceedings{faruqui:2015:NAACL,
   author    = {Faruqui, Manaal and Dodge, Jesse and Jauhar, Sujay K.  and  Dyer, Chris and Hovy, Eduard and Smith, Noah A.},
   title     = {Retrofitting Word Vectors to Semantic Lexicons},
   booktitle = {Proceedings of NAACL},
