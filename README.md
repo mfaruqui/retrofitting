@@ -1,4 +1,4 @@
-#Retrofitting
+# Retrofitting
 Manaal Faruqui, manaalfar@gmail.com
 
 This tool is used to post-process word vectors to incorporate
@@ -7,11 +7,11 @@ these word vectors are generally better in performance on semantic
 tasks than the original word vectors. This tool can be used for
 word vectors obtained from any vector training model.
 
-###Requirements
+### Requirements
 
 1. Python 2.7
 
-###Data you need
+### Data you need
 1. Word vector file
 2. Lexicon file (provided here)
 
@@ -19,7 +19,7 @@ Each vector file should have one word vector per line as follows (space delimite
 
 ```the -1.0 2.4 -0.3 ...```
 
-###Running the program
+### Running the program
 
 ```python retrofit.py -i word_vec_file -l lexicon_file -n num_iter -o out_vec_file```
 
@@ -28,12 +28,12 @@ Each vector file should have one word vector per line as follows (space delimite
 where, 'n' is an integer which specifies the number of iterations for which the
 optimization is to be performed.  Usually n = 10 gives reasonable results.
 
-###Output
+### Output
 File: ```out_vec.txt```
 
 which are your new retrofitted and (hopefully) improved word vectors, enjoy !
 
-###Reference
+### Reference
 
 Main paper to be cited
 ```
@@ -46,4 +46,3 @@ Main paper to be cited
 ```
 
 If you are using PPDB (Ganitkevitch et al, 2013), WordNet (Miller, 1995) or FrameNet (Baker et al, 1998) for enrichment please cite the corresponding papers.
-
